@@ -7,12 +7,18 @@
         <title>WELCOME</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <style>
+            .rounded-circle{
+                width: 100px;
+                height: auto;
+            }
+        </style>
     </head>
     <body>
-        <div class="container">
+        <div class="container d-flex justify-content-center">
             <!-- ##### Profile Image #####-->
             <div class="row">
-
+                <img class="rounded-circle" src="/static/Images/Profile.jpg" alt="ProfilePicture">
             </div>
             <!-- ##### Name ##### -->
             <div class="row">
@@ -25,6 +31,42 @@
         <div class="navbar"></div>
 
         <!-- ##### Main Content ##### -->
-        <div class="container"></div>
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Who Am I</h3>
+                        <p class="card-text">
+                            18 years old(currently 2022), interested in information 
+                            security specifically on cyber-defense(Digital Forensics,
+                            Malware Analysis, Threat Intel, Security Operations, etc).
+                            Also I play CTFs, a.k.a. Capture the Flag, from defense 
+                            to offense. See my profiles here: Profiles. Additionaly, 
+                            I've also dabbled in Networking and System Administration
+                            as a foundational knowledge for Infosec. Recently, I’ve 
+                            been continuing my Game Development hobby that I’ve put
+                            on hold for almost 2 years. Lastly, with all of the 
+                            career fields mentioned, I’ve made small projects to 
+                            ingrain the knowledge I’ve learned. Such projects can be 
+                            found in the Project Tab
+                        </p>
+                        <br>
+                        <br>
+                        <h3 class="card-title">
+                            Skills
+                        </h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">Backend</div>
+                                <div class="col">Fronted</div>
+                                <div class="col">Game Development</div>
+                            </div>
+                            <div class="row"> 
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
